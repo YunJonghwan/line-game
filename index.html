@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>ClickPixel</title>
+</head>
+<body>
+  <div class="display-grid justify-content-center">
+    <div class="border-1px w-18 h-19 display-grid grid-column-2rem-9 align-content-start" id="root"></div>
+    <div class="border-1px display-grid grid-column-1fr-2">
+      <div class="border-1px">현재 점수 : <span id="score">0</span></div>
+      <div class="border-1px">최고 점수 : <span id="highScore">0</span></div>
+    </div>
+    <div class="display-grid grid-column-1fr-2 w-18">
+      <button type="button" class="p-2rem" id="reStart" disabled>다시하기</button>
+      <button type="button" class="p-2rem" id="start">시작하기</button>
+    </div>
+  </div>
+  <script src="js/clickPixel.js"></script>
+</body>
+</html>
