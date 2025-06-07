@@ -93,7 +93,7 @@ function randomNotDupe() {
 }
 
 function makeDiv() {
-  for (let i = 0; i < 80; i++) {
+  for (let i = 0; i < 81; i++) {
     const div = document.createElement("div");
     div.setAttribute("class", "border-1px w-2 h-2 clickDiv");
     div.setAttribute("id", i);
